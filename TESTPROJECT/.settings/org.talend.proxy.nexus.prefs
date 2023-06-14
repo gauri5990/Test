@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
 nexus.proxy.enable=true
-nexus.proxy.password=enc\:system.encryption.key.v1\:5cNxJcrYhuU9qZ0OJCShIhksEB7jNrRxXPrhXHc6tKP0fpEG2oHL
+nexus.proxy.password=enc\:system.encryption.key.v1\:Un83GO6KzpnBsoJQsUEqLqtRWYb628ts9m/aaR3wweGmC+MMJ8PZ
 nexus.proxy.repository.id=Talend-Liberaries
 nexus.proxy.type=NEXUS_3
 nexus.proxy.url=https\://talend-update.talend.com/
