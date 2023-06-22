@@ -1,18 +1,47 @@
-!SESSION 2023-05-31 11:56:17.092 -----------------------------------------------
+!SESSION 2023-06-22 13:51:16.936 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=11.0.18
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_5320111673944534707.txt
-Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace\Test-122516574 scriptFile script_command_5320111673944534707.txt
+Framework arguments:  -application org.talend.studiolite.p2.featmanage.UpgradeCommandlineApplication
+Command-line arguments:  -application org.talend.studiolite.p2.featmanage.UpgradeCommandlineApplication -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574
 
-!ENTRY org.eclipse.emf.ecore 2 0 2023-05-31 11:57:38.507
+!ENTRY org.eclipse.emf.ecore 2 0 2023-06-22 13:51:32.826
 !MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2023-05-31 11:57:38.528
+!ENTRY org.eclipse.emf.ecore 2 0 2023-06-22 13:51:32.826
 !MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
 
-!ENTRY org.eclipse.osgi 4 0 2023-05-31 11:57:51.425
+!ENTRY org.talend.platform.logging 1 0 2023-06-22 13:51:37.523
+!MESSAGE 2023-06-22 13:51:37,523 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio base p2 url is overwrited by: -Dtalend.studio.p2.base=https://update.talend.com/Studio/8/base
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-22 13:51:37.539
+!MESSAGE 2023-06-22 13:51:37,539 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio update p2 url is overwriten by parameter -Dtalend.studio.p2.update=https://update.talend.com/Studio/8/updates/R2023-06
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-22 13:51:42.752
+!MESSAGE 2023-06-22 13:51:42,752 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-22 13:52:02.194
+!MESSAGE 2023-06-22 13:52:02,194 INFO  org.talend.studiolite.p2.featmanage.app.UpgradeCommandlineApplication  - Installing commandline features: org.talend.studio.tcpdm.feature.feature.group
+
+!SESSION 2023-06-22 14:32:46.115 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_216952737190921797.txt
+Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574 scriptFile script_command_216952737190921797.txt
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-06-22 14:32:53.808
+!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-06-22 14:32:53.823
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.eclipse.osgi 4 0 2023-06-22 14:33:28.232
 !MESSAGE Application error
 !STACK 1
 java.lang.RuntimeException: Application "org.talend.commandline.CommandLine" could not be found in the registry. The applications available are: org.eclipse.ant.core.antRunner, org.eclipse.ant.ui.antRunner, org.eclipse.e4.ui.workbench.swt.E4Application, org.eclipse.e4.ui.workbench.swt.GenTopic, org.eclipse.emf.codegen.CodeGen, org.eclipse.emf.codegen.JMerger, org.eclipse.emf.codegen.ecore.Generator, org.eclipse.emf.importer.ecore.Ecore2GenModel, org.eclipse.emf.importer.java.Java2GenModel, org.eclipse.emf.importer.rose.Rose2GenModel, org.eclipse.equinox.app.error, org.eclipse.equinox.p2.director, org.eclipse.equinox.p2.garbagecollector.application, org.eclipse.equinox.p2.publisher.InstallPublisher, org.eclipse.equinox.p2.publisher.EclipseGenerator, org.eclipse.equinox.p2.publisher.ProductPublisher, org.eclipse.equinox.p2.publisher.FeaturesAndBundlesPublisher, org.eclipse.equinox.p2.reconciler.application, org.eclipse.equinox.p2.repository.repo2runnable, org.eclipse.equinox.p2.repository.metadataverifier, org.eclipse.equinox.p2.artifact.repository.mirrorApplication, org.eclipse.equinox.p2.metadata.repository.mirrorApplication, org.eclipse.equinox.p2.touchpoint.natives.nativePackageExtractor, org.eclipse.equinox.p2.updatesite.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.CategoryPublisher, org.eclipse.help.base.infocenterApplication, org.eclipse.help.base.helpApplication, org.eclipse.help.base.indexTool, org.eclipse.jdt.apt.core.aptBuild, org.eclipse.jdt.core.JavaIndexer, org.eclipse.jdt.core.JavaCodeFormatter, org.eclipse.ui.ide.workbench, org.talend.designer.codegen.CodeGenInit, org.talend.license.gui.application, org.talend.rcp.branding.generic.application, org.talend.repository.CreateAutomaticConnectionApplication, org.talend.singlesignon.client.application, org.talend.studiolite.p2.featmanage.UpgradeCommandlineApplication.
@@ -31,153 +60,87 @@ java.lang.RuntimeException: Application "org.talend.commandline.CommandLine" cou
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
 	at org.eclipse.core.launcher.Main.main(Main.java:44)
-!SESSION 2023-05-31 13:22:07.813 -----------------------------------------------
+!SESSION 2023-06-22 15:20:07.179 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=11.0.18
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_18116402542757116080.txt
-Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace\Test-122516574 scriptFile script_command_18116402542757116080.txt
+Framework arguments:  -application org.talend.studiolite.p2.featmanage.UpgradeCommandlineApplication
+Command-line arguments:  -application org.talend.studiolite.p2.featmanage.UpgradeCommandlineApplication -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574
 
-!ENTRY org.eclipse.emf.ecore 2 0 2023-05-31 13:22:17.622
+!ENTRY org.eclipse.emf.ecore 2 0 2023-06-22 15:20:19.116
 !MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2023-05-31 13:22:17.631
+!ENTRY org.eclipse.emf.ecore 2 0 2023-06-22 15:20:19.116
 !MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
 
-!ENTRY org.eclipse.osgi 4 0 2023-05-31 13:22:24.528
-!MESSAGE Application error
-!STACK 1
-java.lang.RuntimeException: Application "org.talend.commandline.CommandLine" could not be found in the registry. The applications available are: org.eclipse.ant.core.antRunner, org.eclipse.ant.ui.antRunner, org.eclipse.e4.ui.workbench.swt.E4Application, org.eclipse.e4.ui.workbench.swt.GenTopic, org.eclipse.emf.codegen.CodeGen, org.eclipse.emf.codegen.JMerger, org.eclipse.emf.codegen.ecore.Generator, org.eclipse.emf.importer.ecore.Ecore2GenModel, org.eclipse.emf.importer.java.Java2GenModel, org.eclipse.emf.importer.rose.Rose2GenModel, org.eclipse.equinox.app.error, org.eclipse.equinox.p2.director, org.eclipse.equinox.p2.garbagecollector.application, org.eclipse.equinox.p2.publisher.InstallPublisher, org.eclipse.equinox.p2.publisher.EclipseGenerator, org.eclipse.equinox.p2.publisher.ProductPublisher, org.eclipse.equinox.p2.publisher.FeaturesAndBundlesPublisher, org.eclipse.equinox.p2.reconciler.application, org.eclipse.equinox.p2.repository.repo2runnable, org.eclipse.equinox.p2.repository.metadataverifier, org.eclipse.equinox.p2.artifact.repository.mirrorApplication, org.eclipse.equinox.p2.metadata.repository.mirrorApplication, org.eclipse.equinox.p2.touchpoint.natives.nativePackageExtractor, org.eclipse.equinox.p2.updatesite.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.CategoryPublisher, org.eclipse.help.base.infocenterApplication, org.eclipse.help.base.helpApplication, org.eclipse.help.base.indexTool, org.eclipse.jdt.apt.core.aptBuild, org.eclipse.jdt.core.JavaIndexer, org.eclipse.jdt.core.JavaCodeFormatter, org.eclipse.ui.ide.workbench, org.talend.designer.codegen.CodeGenInit, org.talend.license.gui.application, org.talend.rcp.branding.generic.application, org.talend.repository.CreateAutomaticConnectionApplication, org.talend.singlesignon.client.application, org.talend.studiolite.p2.featmanage.UpgradeCommandlineApplication.
-	at org.eclipse.equinox.internal.app.EclipseAppContainer.startDefaultApp(EclipseAppContainer.java:252)
-	at org.eclipse.equinox.internal.app.MainApplicationLauncher.run(MainApplicationLauncher.java:33)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
-	at org.eclipse.core.launcher.Main.main(Main.java:44)
-!SESSION 2023-05-31 17:13:43.408 -----------------------------------------------
+!ENTRY org.talend.platform.logging 1 0 2023-06-22 15:20:23.537
+!MESSAGE 2023-06-22 15:20:23,537 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio base p2 url is overwrited by: -Dtalend.studio.p2.base=https://update.talend.com/Studio/8/base
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-22 15:20:23.552
+!MESSAGE 2023-06-22 15:20:23,552 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio update p2 url is overwriten by parameter -Dtalend.studio.p2.update=https://update.talend.com/Studio/8/updates/R2023-06
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-22 15:20:28.694
+!MESSAGE 2023-06-22 15:20:28,687 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-06-22 15:20:45.715
+!MESSAGE 2023-06-22 15:20:45,715 INFO  org.talend.studiolite.p2.featmanage.app.UpgradeCommandlineApplication  - Installing commandline features: org.talend.studio.tcpdm.feature.feature.group
+
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2023-06-22 15:59:07.935
+!MESSAGE Connection to https://update.talend.com/Studio/8/base/plugins/org.talend.designer.datastewardship_8.0.1.20211103_1602.jar failed on Connect to update.talend.com:443 [update.talend.com/149.97.185.8] failed: Read timed out. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to update.talend.com:443 [update.talend.com/149.97.185.8] failed: Read timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readFully(SSLSocketInputRecord.java:461)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:243)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1383)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1296)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:416)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:388)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 13 more
+!SESSION 2023-06-22 16:03:38.820 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=11.0.18
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_13027265252273814736.txt
-Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace\Test-122516574 scriptFile script_command_13027265252273814736.txt
+Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_6905710952562024406.txt
+Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574 scriptFile script_command_6905710952562024406.txt
 
-!ENTRY org.eclipse.emf.ecore 2 0 2023-05-31 17:13:53.740
+!ENTRY org.eclipse.emf.ecore 2 0 2023-06-22 16:03:45.066
 !MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2023-05-31 17:13:53.748
+!ENTRY org.eclipse.emf.ecore 2 0 2023-06-22 16:03:45.082
 !MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
 
-!ENTRY org.eclipse.osgi 4 0 2023-05-31 17:14:02.319
-!MESSAGE Application error
-!STACK 1
-java.lang.RuntimeException: Application "org.talend.commandline.CommandLine" could not be found in the registry. The applications available are: org.eclipse.ant.core.antRunner, org.eclipse.ant.ui.antRunner, org.eclipse.e4.ui.workbench.swt.E4Application, org.eclipse.e4.ui.workbench.swt.GenTopic, org.eclipse.emf.codegen.CodeGen, org.eclipse.emf.codegen.JMerger, org.eclipse.emf.codegen.ecore.Generator, org.eclipse.emf.importer.ecore.Ecore2GenModel, org.eclipse.emf.importer.java.Java2GenModel, org.eclipse.emf.importer.rose.Rose2GenModel, org.eclipse.equinox.app.error, org.eclipse.equinox.p2.director, org.eclipse.equinox.p2.garbagecollector.application, org.eclipse.equinox.p2.publisher.InstallPublisher, org.eclipse.equinox.p2.publisher.EclipseGenerator, org.eclipse.equinox.p2.publisher.ProductPublisher, org.eclipse.equinox.p2.publisher.FeaturesAndBundlesPublisher, org.eclipse.equinox.p2.reconciler.application, org.eclipse.equinox.p2.repository.repo2runnable, org.eclipse.equinox.p2.repository.metadataverifier, org.eclipse.equinox.p2.artifact.repository.mirrorApplication, org.eclipse.equinox.p2.metadata.repository.mirrorApplication, org.eclipse.equinox.p2.touchpoint.natives.nativePackageExtractor, org.eclipse.equinox.p2.updatesite.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.CategoryPublisher, org.eclipse.help.base.infocenterApplication, org.eclipse.help.base.helpApplication, org.eclipse.help.base.indexTool, org.eclipse.jdt.apt.core.aptBuild, org.eclipse.jdt.core.JavaIndexer, org.eclipse.jdt.core.JavaCodeFormatter, org.eclipse.ui.ide.workbench, org.talend.designer.codegen.CodeGenInit, org.talend.license.gui.application, org.talend.rcp.branding.generic.application, org.talend.repository.CreateAutomaticConnectionApplication, org.talend.singlesignon.client.application, org.talend.studiolite.p2.featmanage.UpgradeCommandlineApplication.
-	at org.eclipse.equinox.internal.app.EclipseAppContainer.startDefaultApp(EclipseAppContainer.java:252)
-	at org.eclipse.equinox.internal.app.MainApplicationLauncher.run(MainApplicationLauncher.java:33)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
-	at org.eclipse.core.launcher.Main.main(Main.java:44)
-!SESSION 2023-05-31 17:51:45.746 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=11.0.18
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_8460473230227409694.txt
-Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace\Test-122516574 scriptFile script_command_8460473230227409694.txt
-
-!ENTRY org.eclipse.emf.ecore 2 0 2023-05-31 17:52:02.574
-!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
-
-!ENTRY org.eclipse.emf.ecore 2 0 2023-05-31 17:52:02.580
-!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
-
-!ENTRY org.eclipse.osgi 4 0 2023-05-31 17:52:11.294
-!MESSAGE Application error
-!STACK 1
-java.lang.RuntimeException: Application "org.talend.commandline.CommandLine" could not be found in the registry. The applications available are: org.eclipse.ant.core.antRunner, org.eclipse.ant.ui.antRunner, org.eclipse.e4.ui.workbench.swt.E4Application, org.eclipse.e4.ui.workbench.swt.GenTopic, org.eclipse.emf.codegen.CodeGen, org.eclipse.emf.codegen.JMerger, org.eclipse.emf.codegen.ecore.Generator, org.eclipse.emf.importer.ecore.Ecore2GenModel, org.eclipse.emf.importer.java.Java2GenModel, org.eclipse.emf.importer.rose.Rose2GenModel, org.eclipse.equinox.app.error, org.eclipse.equinox.p2.director, org.eclipse.equinox.p2.garbagecollector.application, org.eclipse.equinox.p2.publisher.InstallPublisher, org.eclipse.equinox.p2.publisher.EclipseGenerator, org.eclipse.equinox.p2.publisher.ProductPublisher, org.eclipse.equinox.p2.publisher.FeaturesAndBundlesPublisher, org.eclipse.equinox.p2.reconciler.application, org.eclipse.equinox.p2.repository.repo2runnable, org.eclipse.equinox.p2.repository.metadataverifier, org.eclipse.equinox.p2.artifact.repository.mirrorApplication, org.eclipse.equinox.p2.metadata.repository.mirrorApplication, org.eclipse.equinox.p2.touchpoint.natives.nativePackageExtractor, org.eclipse.equinox.p2.updatesite.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.CategoryPublisher, org.eclipse.help.base.infocenterApplication, org.eclipse.help.base.helpApplication, org.eclipse.help.base.indexTool, org.eclipse.jdt.apt.core.aptBuild, org.eclipse.jdt.core.JavaIndexer, org.eclipse.jdt.core.JavaCodeFormatter, org.eclipse.ui.ide.workbench, org.talend.designer.codegen.CodeGenInit, org.talend.license.gui.application, org.talend.rcp.branding.generic.application, org.talend.repository.CreateAutomaticConnectionApplication, org.talend.singlesignon.client.application, org.talend.studiolite.p2.featmanage.UpgradeCommandlineApplication.
-	at org.eclipse.equinox.internal.app.EclipseAppContainer.startDefaultApp(EclipseAppContainer.java:252)
-	at org.eclipse.equinox.internal.app.MainApplicationLauncher.run(MainApplicationLauncher.java:33)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
-	at org.eclipse.core.launcher.Main.main(Main.java:44)
-!SESSION 2023-05-31 18:21:26.196 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=11.0.18
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_10557639369383615898.txt
-Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace\Test-122516574 scriptFile script_command_10557639369383615898.txt
-
-!ENTRY org.eclipse.emf.ecore 2 0 2023-05-31 18:21:33.822
-!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
-
-!ENTRY org.eclipse.emf.ecore 2 0 2023-05-31 18:21:33.832
-!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
-
-!ENTRY org.eclipse.osgi 4 0 2023-05-31 18:21:38.568
-!MESSAGE Application error
-!STACK 1
-java.lang.RuntimeException: Application "org.talend.commandline.CommandLine" could not be found in the registry. The applications available are: org.eclipse.ant.core.antRunner, org.eclipse.ant.ui.antRunner, org.eclipse.e4.ui.workbench.swt.E4Application, org.eclipse.e4.ui.workbench.swt.GenTopic, org.eclipse.emf.codegen.CodeGen, org.eclipse.emf.codegen.JMerger, org.eclipse.emf.codegen.ecore.Generator, org.eclipse.emf.importer.ecore.Ecore2GenModel, org.eclipse.emf.importer.java.Java2GenModel, org.eclipse.emf.importer.rose.Rose2GenModel, org.eclipse.equinox.app.error, org.eclipse.equinox.p2.director, org.eclipse.equinox.p2.garbagecollector.application, org.eclipse.equinox.p2.publisher.InstallPublisher, org.eclipse.equinox.p2.publisher.EclipseGenerator, org.eclipse.equinox.p2.publisher.ProductPublisher, org.eclipse.equinox.p2.publisher.FeaturesAndBundlesPublisher, org.eclipse.equinox.p2.reconciler.application, org.eclipse.equinox.p2.repository.repo2runnable, org.eclipse.equinox.p2.repository.metadataverifier, org.eclipse.equinox.p2.artifact.repository.mirrorApplication, org.eclipse.equinox.p2.metadata.repository.mirrorApplication, org.eclipse.equinox.p2.touchpoint.natives.nativePackageExtractor, org.eclipse.equinox.p2.updatesite.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.CategoryPublisher, org.eclipse.help.base.infocenterApplication, org.eclipse.help.base.helpApplication, org.eclipse.help.base.indexTool, org.eclipse.jdt.apt.core.aptBuild, org.eclipse.jdt.core.JavaIndexer, org.eclipse.jdt.core.JavaCodeFormatter, org.eclipse.ui.ide.workbench, org.talend.designer.codegen.CodeGenInit, org.talend.license.gui.application, org.talend.rcp.branding.generic.application, org.talend.repository.CreateAutomaticConnectionApplication, org.talend.singlesignon.client.application, org.talend.studiolite.p2.featmanage.UpgradeCommandlineApplication.
-	at org.eclipse.equinox.internal.app.EclipseAppContainer.startDefaultApp(EclipseAppContainer.java:252)
-	at org.eclipse.equinox.internal.app.MainApplicationLauncher.run(MainApplicationLauncher.java:33)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
-	at org.eclipse.core.launcher.Main.main(Main.java:44)
-!SESSION 2023-05-31 19:11:13.794 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=11.0.18
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_1597443744239006607.txt
-Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace\Test-122516574 scriptFile script_command_1597443744239006607.txt
-
-!ENTRY org.eclipse.emf.ecore 2 0 2023-05-31 19:11:25.385
-!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
-
-!ENTRY org.eclipse.emf.ecore 2 0 2023-05-31 19:11:25.391
-!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
-
-!ENTRY org.eclipse.osgi 4 0 2023-05-31 19:11:32.371
+!ENTRY org.eclipse.osgi 4 0 2023-06-22 16:04:43.050
 !MESSAGE Application error
 !STACK 1
 java.lang.RuntimeException: Application "org.talend.commandline.CommandLine" could not be found in the registry. The applications available are: org.eclipse.ant.core.antRunner, org.eclipse.ant.ui.antRunner, org.eclipse.e4.ui.workbench.swt.E4Application, org.eclipse.e4.ui.workbench.swt.GenTopic, org.eclipse.emf.codegen.CodeGen, org.eclipse.emf.codegen.JMerger, org.eclipse.emf.codegen.ecore.Generator, org.eclipse.emf.importer.ecore.Ecore2GenModel, org.eclipse.emf.importer.java.Java2GenModel, org.eclipse.emf.importer.rose.Rose2GenModel, org.eclipse.equinox.app.error, org.eclipse.equinox.p2.director, org.eclipse.equinox.p2.garbagecollector.application, org.eclipse.equinox.p2.publisher.InstallPublisher, org.eclipse.equinox.p2.publisher.EclipseGenerator, org.eclipse.equinox.p2.publisher.ProductPublisher, org.eclipse.equinox.p2.publisher.FeaturesAndBundlesPublisher, org.eclipse.equinox.p2.reconciler.application, org.eclipse.equinox.p2.repository.repo2runnable, org.eclipse.equinox.p2.repository.metadataverifier, org.eclipse.equinox.p2.artifact.repository.mirrorApplication, org.eclipse.equinox.p2.metadata.repository.mirrorApplication, org.eclipse.equinox.p2.touchpoint.natives.nativePackageExtractor, org.eclipse.equinox.p2.updatesite.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.UpdateSitePublisher, org.eclipse.equinox.p2.publisher.CategoryPublisher, org.eclipse.help.base.infocenterApplication, org.eclipse.help.base.helpApplication, org.eclipse.help.base.indexTool, org.eclipse.jdt.apt.core.aptBuild, org.eclipse.jdt.core.JavaIndexer, org.eclipse.jdt.core.JavaCodeFormatter, org.eclipse.ui.ide.workbench, org.talend.designer.codegen.CodeGenInit, org.talend.license.gui.application, org.talend.rcp.branding.generic.application, org.talend.repository.CreateAutomaticConnectionApplication, org.talend.singlesignon.client.application, org.talend.studiolite.p2.featmanage.UpgradeCommandlineApplication.
