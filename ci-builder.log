@@ -5793,3 +5793,285 @@ OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(
 OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
 OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
 OUTPUT>	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+OUTPUT>!SESSION 2023-06-23 13:31:19.686 -----------------------------------------------
+OUTPUT>eclipse.buildId=unknown
+OUTPUT>java.version=11.0.18
+OUTPUT>java.vendor=Oracle Corporation
+OUTPUT>BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+OUTPUT>Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_9027735849462667593.txt
+OUTPUT>Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574 scriptFile script_command_9027735849462667593.txt
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-23 13:31:26.961
+OUTPUT>!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-23 13:31:26.961
+OUTPUT>!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:31:42.947
+OUTPUT>!MESSAGE 2023-06-23 13:31:42,947 INFO  org.talend.commandline.CommandLineApplication  - 
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!                                    TALEND                                    !!
+OUTPUT>!!   Starting Talend's platform log system.VERSION= 8.0.1.20230612_1054-patch   !!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:31:43.048
+OUTPUT>!MESSAGE Starting up Command Line Application
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:31:43.079
+OUTPUT>!MESSAGE 2023-06-23 13:31:43,063 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\configuration\studio.keys
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:31:50.360
+OUTPUT>!MESSAGE 2023-06-23 13:31:50,345 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio base p2 url is overwrited by: -Dtalend.studio.p2.base=https://update.talend.com/Studio/8/base
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:31:50.382
+OUTPUT>!MESSAGE 2023-06-23 13:31:50,382 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio update p2 url is overwriten by parameter -Dtalend.studio.p2.update=https://update.talend.com/Studio/8/updates/R2023-06
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:31:50.731
+OUTPUT>!MESSAGE 2023-06-23 13:31:50,731 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:31:51.746
+OUTPUT>!MESSAGE Checking for update...
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:32:13.523
+OUTPUT>!MESSAGE Commandline is update to date.
+OUTPUT>Start to check local patches....
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:32:21.096
+OUTPUT>!MESSAGE 2023-06-23 13:32:21,096 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-23 13:32:21.831
+OUTPUT>!MESSAGE 2023-06-23 13:32:21,715 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-23 13:32:21.853
+OUTPUT>!MESSAGE 2023-06-23 13:32:21,853 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>COMPLETED at Fri Jun 23 13:32:30 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:32:30.804
+OUTPUT>!MESSAGE initLocal
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:32:30.824
+OUTPUT>!MESSAGE COMPLETED at Fri Jun 23 13:32:30 IST 2023
+OUTPUT>
+OUTPUT>COMPLETED at Fri Jun 23 13:33:01 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:33:01.520
+OUTPUT>!MESSAGE createProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:33:01.536
+OUTPUT>!MESSAGE COMPLETED at Fri Jun 23 13:33:01 IST 2023
+OUTPUT>
+OUTPUT>COMPLETED at Fri Jun 23 13:33:13 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:33:13.139
+OUTPUT>!MESSAGE logoffProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:33:13.139
+OUTPUT>!MESSAGE COMPLETED at Fri Jun 23 13:33:13 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:33:13.331
+OUTPUT>!MESSAGE Shutting down Command Line Application
+OUTPUT>!SESSION 2023-06-23 13:33:21.676 -----------------------------------------------
+OUTPUT>eclipse.buildId=unknown
+OUTPUT>java.version=11.0.18
+OUTPUT>java.vendor=Oracle Corporation
+OUTPUT>BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+OUTPUT>Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_9166613967294381974.txt
+OUTPUT>Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574 scriptFile script_command_9166613967294381974.txt
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-23 13:33:28.977
+OUTPUT>!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-23 13:33:28.977
+OUTPUT>!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:33:34.774
+OUTPUT>!MESSAGE 2023-06-23 13:33:34,774 INFO  org.talend.commandline.CommandLineApplication  - 
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!                                    TALEND                                    !!
+OUTPUT>!!   Starting Talend's platform log system.VERSION= 8.0.1.20230612_1054-patch   !!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:33:34.795
+OUTPUT>!MESSAGE Starting up Command Line Application
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:33:34.795
+OUTPUT>!MESSAGE 2023-06-23 13:33:34,795 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\configuration\studio.keys
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:33:36.787
+OUTPUT>!MESSAGE 2023-06-23 13:33:36,785 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio base p2 url is overwrited by: -Dtalend.studio.p2.base=https://update.talend.com/Studio/8/base
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:33:36.797
+OUTPUT>!MESSAGE 2023-06-23 13:33:36,797 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio update p2 url is overwriten by parameter -Dtalend.studio.p2.update=https://update.talend.com/Studio/8/updates/R2023-06
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:33:36.915
+OUTPUT>!MESSAGE 2023-06-23 13:33:36,915 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:33:37.861
+OUTPUT>!MESSAGE Checking for update...
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:33:55.342
+OUTPUT>!MESSAGE Commandline is update to date.
+OUTPUT>Start to check local patches....
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:33:55.753
+OUTPUT>!MESSAGE 2023-06-23 13:33:55,745 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-23 13:33:55.805
+OUTPUT>!MESSAGE 2023-06-23 13:33:55,803 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-23 13:33:55.825
+OUTPUT>!MESSAGE 2023-06-23 13:33:55,815 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>COMPLETED at Fri Jun 23 13:33:56 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:33:56.580
+OUTPUT>!MESSAGE initLocal
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:33:56.595
+OUTPUT>!MESSAGE COMPLETED at Fri Jun 23 13:33:56 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:33:58.940
+OUTPUT>!MESSAGE 2023-06-23 13:33:58,924 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:33:58.940
+OUTPUT>!MESSAGE 2023-06-23 13:33:58,940 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:34:02.765
+OUTPUT>!MESSAGE 2023-06-23 13:34:02,765 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-docker, version=8.0.1.20230524_0138, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:34:02.781
+OUTPUT>!MESSAGE 2023-06-23 13:34:02,781 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-lite, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:34:02.796
+OUTPUT>!MESSAGE 2023-06-23 13:34:02,796 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tck, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:34:02.812
+OUTPUT>!MESSAGE 2023-06-23 13:34:02,796 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcksdk, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:34:02.812
+OUTPUT>!MESSAGE 2023-06-23 13:34:02,812 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcompv0, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:34:05.012
+OUTPUT>!MESSAGE 2023-06-23 13:34:04,981 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-23 13:34:08.708
+OUTPUT>!MESSAGE 2023-06-23 13:34:08,708 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+OUTPUT>
+OUTPUT>Component server not yet ready, will wait again
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:34:14.873
+OUTPUT>!MESSAGE 2023-06-23 13:34:14,873 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:52348/api/v1/environment]
+OUTPUT>
+ERROR>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+ERROR>SLF4J: Defaulting to no-operation (NOP) logger implementation
+ERROR>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:35:07.693
+OUTPUT>!MESSAGE 2023-06-23 13:35:07,685 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_ROUTINES/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:35:07.703
+OUTPUT>!MESSAGE 2023-06-23 13:35:07,703 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /TESTPROJECT_ROUTINES/src/main/java overlaps with sources folder /TESTPROJECT_ROUTINES/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:35:07.756
+OUTPUT>!MESSAGE 2023-06-23 13:35:07,756 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_ROUTINES/src/test/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:35:07.816
+OUTPUT>!MESSAGE 2023-06-23 13:35:07,816 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TESTPROJECT_ROUTINES/src/test/resources
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:35:54.170
+OUTPUT>!MESSAGE 2023-06-23 13:35:54,170 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TESTPROJECT_ROUTINES: org.example.testproject.code:routines:8.0.1 with classifier  to /TESTPROJECT_ROUTINES/target/classes
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:35:54.719
+OUTPUT>!MESSAGE 2023-06-23 13:35:54,704 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_BEANS/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:35:54.719
+OUTPUT>!MESSAGE 2023-06-23 13:35:54,719 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /TESTPROJECT_BEANS/src/main/java overlaps with sources folder /TESTPROJECT_BEANS/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:35:54.751
+OUTPUT>!MESSAGE 2023-06-23 13:35:54,751 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_BEANS/src/test/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:35:54.766
+OUTPUT>!MESSAGE 2023-06-23 13:35:54,766 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TESTPROJECT_BEANS/src/test/resources
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:35:55.065
+OUTPUT>!MESSAGE 2023-06-23 13:35:55,057 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TESTPROJECT_ROUTINES: org.example.testproject.code:routines:8.0.1 with classifier  to /TESTPROJECT_ROUTINES/target/classes
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:35:59.758
+OUTPUT>!MESSAGE 2023-06-23 13:35:59,758 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TESTPROJECT_ROUTINES: org.example.testproject.code:routines:8.0.1 with classifier  to /TESTPROJECT_ROUTINES/target/classes
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:36:00.626
+OUTPUT>!MESSAGE 2023-06-23 13:36:00,626 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - jobbuilder@talend.com logged on TestProject
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:36:06.641
+OUTPUT>!MESSAGE 2023-06-23 13:36:06,641 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 749, total: 749
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 13:36:32.494
+OUTPUT>!MESSAGE 2023-06-23 13:36:32,494 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 899 components loaded in 27659 ms
+OUTPUT>
+OUTPUT>COMPLETED at Fri Jun 23 13:37:33 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:37:33.469
+OUTPUT>!MESSAGE logonProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:37:33.469
+OUTPUT>!MESSAGE COMPLETED at Fri Jun 23 13:37:33 IST 2023
+OUTPUT>
+OUTPUT>COMPLETED at Fri Jun 23 13:37:33 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:37:33.854
+OUTPUT>!MESSAGE logoffProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:37:33.854
+OUTPUT>!MESSAGE COMPLETED at Fri Jun 23 13:37:33 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:37:34.371
+OUTPUT>!MESSAGE Shutting down Command Line Application
