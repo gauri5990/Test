@@ -6075,3 +6075,405 @@ OUTPUT>
 OUTPUT>
 OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 13:37:34.371
 OUTPUT>!MESSAGE Shutting down Command Line Application
+ERROR>Picked up _JAVA_OPTIONS: -Xmx512M
+OUTPUT>!SESSION 2023-06-23 15:50:36.564 -----------------------------------------------
+OUTPUT>eclipse.buildId=unknown
+OUTPUT>java.version=11.0.18
+OUTPUT>java.vendor=Oracle Corporation
+OUTPUT>BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+OUTPUT>Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_391619948590662580.txt
+OUTPUT>Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574 scriptFile script_command_391619948590662580.txt
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-23 15:50:43.320
+OUTPUT>!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-23 15:50:43.320
+OUTPUT>!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:51:08.851
+OUTPUT>!MESSAGE 2023-06-23 15:51:08,817 INFO  org.talend.commandline.CommandLineApplication  - 
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!                                    TALEND                                    !!
+OUTPUT>!!   Starting Talend's platform log system.VERSION= 8.0.1.20230612_1054-patch   !!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:51:08.950
+OUTPUT>!MESSAGE Starting up Command Line Application
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:51:08.967
+OUTPUT>!MESSAGE 2023-06-23 15:51:08,967 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\configuration\studio.keys
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:51:34.425
+OUTPUT>!MESSAGE 2023-06-23 15:51:34,425 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio base p2 url is overwrited by: -Dtalend.studio.p2.base=https://update.talend.com/Studio/8/base
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:51:34.442
+OUTPUT>!MESSAGE 2023-06-23 15:51:34,442 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio update p2 url is overwriten by parameter -Dtalend.studio.p2.update=https://update.talend.com/Studio/8/updates/R2023-06
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:51:37.172
+OUTPUT>!MESSAGE 2023-06-23 15:51:37,172 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:51:38.705
+OUTPUT>!MESSAGE Checking for update...
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:51:59.900
+OUTPUT>!MESSAGE Commandline is update to date.
+OUTPUT>Start to check local patches....
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:52:10.357
+OUTPUT>!MESSAGE 2023-06-23 15:52:10,357 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-23 15:52:10.933
+OUTPUT>!MESSAGE 2023-06-23 15:52:10,923 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-23 15:52:10.939
+OUTPUT>!MESSAGE 2023-06-23 15:52:10,939 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>COMPLETED at Fri Jun 23 15:52:17 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:52:17.124
+OUTPUT>!MESSAGE initLocal
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:52:17.124
+OUTPUT>!MESSAGE COMPLETED at Fri Jun 23 15:52:17 IST 2023
+OUTPUT>
+OUTPUT>COMPLETED at Fri Jun 23 15:52:42 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:52:42.335
+OUTPUT>!MESSAGE createProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:52:42.344
+OUTPUT>!MESSAGE COMPLETED at Fri Jun 23 15:52:42 IST 2023
+OUTPUT>
+OUTPUT>COMPLETED at Fri Jun 23 15:52:52 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:52:52.941
+OUTPUT>!MESSAGE logoffProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:52:52.963
+OUTPUT>!MESSAGE COMPLETED at Fri Jun 23 15:52:52 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:52:53.365
+OUTPUT>!MESSAGE Shutting down Command Line Application
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.core.jobs 2 2 2023-06-23 15:52:57.440
+OUTPUT>!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.talend.studiolite.p2.api.StudioLiteP2Service$1
+ERROR>Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.talend.studiolite.p2.api.StudioLiteP2Service$1
+ERROR>java.io.IOException: Unknown protocol
+ERROR>	at org.eclipse.core.runtime.FileLocator.getBundleFile(FileLocator.java:310)
+ERROR>	at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxManipulatorImpl.initializeRuntime(EquinoxManipulatorImpl.java:339)
+ERROR>	at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxManipulatorImpl.<init>(EquinoxManipulatorImpl.java:145)
+ERROR>	at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxFwAdminImpl.getRunningManipulator(EquinoxFwAdminImpl.java:92)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.WhatIsRunning.getFrameworkManipulator(WhatIsRunning.java:28)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.WhatIsRunning.getBundlesBeingRun(WhatIsRunning.java:22)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.EclipseMarkSetProvider.addRunningBundles(EclipseMarkSetProvider.java:109)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.EclipseMarkSetProvider.getMarkSets(EclipseMarkSetProvider.java:50)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector$ParameterizedSafeRunnable.run(GarbageCollector.java:74)
+ERROR>	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector.contributeMarkSets(GarbageCollector.java:102)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector.traverseRegisteredProfiles(GarbageCollector.java:216)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector.runGC(GarbageCollector.java:169)
+ERROR>	at org.talend.studiolite.p2.update.StudioLiteP2Update.cleanUninstalledBundles(StudioLiteP2Update.java:704)
+ERROR>	at org.talend.studiolite.p2.api.StudioLiteP2Service.cleanUnusedBundles(StudioLiteP2Service.java:355)
+ERROR>	at org.talend.studiolite.p2.api.StudioLiteP2Service.access$0(StudioLiteP2Service.java:335)
+ERROR>	at org.talend.studiolite.p2.api.StudioLiteP2Service$1.run(StudioLiteP2Service.java:219)
+ERROR>	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+ERROR>java.io.IOException: Unknown protocol
+ERROR>	at org.eclipse.core.runtime.FileLocator.getBundleFile(FileLocator.java:310)
+ERROR>	at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxManipulatorImpl.initializeRuntime(EquinoxManipulatorImpl.java:339)
+ERROR>	at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxManipulatorImpl.<init>(EquinoxManipulatorImpl.java:145)
+ERROR>	at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxFwAdminImpl.getRunningManipulator(EquinoxFwAdminImpl.java:92)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.WhatIsRunning.getFrameworkManipulator(WhatIsRunning.java:28)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.WhatIsRunning.getBundlesBeingRun(WhatIsRunning.java:22)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.EclipseMarkSetProvider.addRunningBundles(EclipseMarkSetProvider.java:109)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.EclipseMarkSetProvider.getMarkSets(EclipseMarkSetProvider.java:50)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector$ParameterizedSafeRunnable.run(GarbageCollector.java:74)
+ERROR>	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector.contributeMarkSets(GarbageCollector.java:102)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector.traverseRegisteredProfiles(GarbageCollector.java:216)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector.runGC(GarbageCollector.java:169)
+ERROR>	at org.talend.studiolite.p2.update.StudioLiteP2Update.cleanUninstalledBundles(StudioLiteP2Update.java:704)
+ERROR>	at org.talend.studiolite.p2.api.StudioLiteP2Service.cleanUnusedBundles(StudioLiteP2Service.java:355)
+ERROR>	at org.talend.studiolite.p2.api.StudioLiteP2Service.access$0(StudioLiteP2Service.java:335)
+ERROR>	at org.talend.studiolite.p2.api.StudioLiteP2Service$1.run(StudioLiteP2Service.java:219)
+ERROR>	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+ERROR>java.io.IOException: Unknown protocol
+ERROR>	at org.eclipse.core.runtime.FileLocator.getBundleFile(FileLocator.java:310)
+ERROR>	at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxManipulatorImpl.initializeRuntime(EquinoxManipulatorImpl.java:339)
+ERROR>	at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxManipulatorImpl.<init>(EquinoxManipulatorImpl.java:145)
+ERROR>	at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxFwAdminImpl.getRunningManipulator(EquinoxFwAdminImpl.java:92)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.WhatIsRunning.getFrameworkManipulator(WhatIsRunning.java:28)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.WhatIsRunning.getBundlesBeingRun(WhatIsRunning.java:22)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.EclipseMarkSetProvider.addRunningBundles(EclipseMarkSetProvider.java:109)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.EclipseMarkSetProvider.getMarkSets(EclipseMarkSetProvider.java:50)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector$ParameterizedSafeRunnable.run(GarbageCollector.java:74)
+ERROR>	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector.contributeMarkSets(GarbageCollector.java:102)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector.traverseRegisteredProfiles(GarbageCollector.java:216)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector.runGC(GarbageCollector.java:169)
+ERROR>	at org.talend.studiolite.p2.update.StudioLiteP2Update.cleanUninstalledBundles(StudioLiteP2Update.java:704)
+ERROR>	at org.talend.studiolite.p2.api.StudioLiteP2Service.cleanUnusedBundles(StudioLiteP2Service.java:355)
+ERROR>	at org.talend.studiolite.p2.api.StudioLiteP2Service.access$0(StudioLiteP2Service.java:335)
+ERROR>	at org.talend.studiolite.p2.api.StudioLiteP2Service$1.run(StudioLiteP2Service.java:219)
+ERROR>	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+ERROR>java.lang.IllegalStateException: Bundle has been uninstalled: org.apache.felix.scr_2.1.24.v20200924-1939 [63]
+ERROR>	at org.eclipse.osgi.internal.framework.EquinoxBundle.checkValid(EquinoxBundle.java:1015)
+ERROR>	at org.eclipse.osgi.internal.framework.EquinoxBundle.getEntry(EquinoxBundle.java:701)
+ERROR>	at org.eclipse.core.runtime.FileLocator.getBundleFile(FileLocator.java:298)
+ERROR>	at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxManipulatorImpl.initializeRuntime(EquinoxManipulatorImpl.java:339)
+ERROR>	at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxManipulatorImpl.<init>(EquinoxManipulatorImpl.java:145)
+ERROR>	at org.eclipse.equinox.internal.frameworkadmin.equinox.EquinoxFwAdminImpl.getRunningManipulator(EquinoxFwAdminImpl.java:92)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.WhatIsRunning.getFrameworkManipulator(WhatIsRunning.java:28)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.WhatIsRunning.getBundlesBeingRun(WhatIsRunning.java:22)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.EclipseMarkSetProvider.addRunningBundles(EclipseMarkSetProvider.java:109)
+ERROR>	at org.eclipse.equinox.internal.p2.touchpoint.eclipse.EclipseMarkSetProvider.getMarkSets(EclipseMarkSetProvider.java:50)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector$ParameterizedSafeRunnable.run(GarbageCollector.java:74)
+ERROR>	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector.contributeMarkSets(GarbageCollector.java:102)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector.traverseRegisteredProfiles(GarbageCollector.java:216)
+ERROR>	at org.eclipse.equinox.internal.p2.garbagecollector.GarbageCollector.runGC(GarbageCollector.java:169)
+ERROR>	at org.talend.studiolite.p2.update.StudioLiteP2Update.cleanUninstalledBundles(StudioLiteP2Update.java:704)
+ERROR>	at org.talend.studiolite.p2.api.StudioLiteP2Service.cleanUnusedBundles(StudioLiteP2Service.java:355)
+ERROR>	at org.talend.studiolite.p2.api.StudioLiteP2Service.access$0(StudioLiteP2Service.java:335)
+ERROR>	at org.talend.studiolite.p2.api.StudioLiteP2Service$1.run(StudioLiteP2Service.java:219)
+ERROR>	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+ERROR>Picked up _JAVA_OPTIONS: -Xmx512M
+OUTPUT>!SESSION 2023-06-23 15:53:01.539 -----------------------------------------------
+OUTPUT>eclipse.buildId=unknown
+OUTPUT>java.version=11.0.18
+OUTPUT>java.vendor=Oracle Corporation
+OUTPUT>BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+OUTPUT>Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_11015367197175910241.txt
+OUTPUT>Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574 scriptFile script_command_11015367197175910241.txt
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-23 15:53:06.048
+OUTPUT>!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-23 15:53:06.048
+OUTPUT>!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:13.224
+OUTPUT>!MESSAGE 2023-06-23 15:53:13,224 INFO  org.talend.commandline.CommandLineApplication  - 
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!                                    TALEND                                    !!
+OUTPUT>!!   Starting Talend's platform log system.VERSION= 8.0.1.20230612_1054-patch   !!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:53:13.271
+OUTPUT>!MESSAGE Starting up Command Line Application
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:13.286
+OUTPUT>!MESSAGE 2023-06-23 15:53:13,271 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\configuration\studio.keys
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:17.867
+OUTPUT>!MESSAGE 2023-06-23 15:53:17,852 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio base p2 url is overwrited by: -Dtalend.studio.p2.base=https://update.talend.com/Studio/8/base
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:17.867
+OUTPUT>!MESSAGE 2023-06-23 15:53:17,867 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio update p2 url is overwriten by parameter -Dtalend.studio.p2.update=https://update.talend.com/Studio/8/updates/R2023-06
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:18.384
+OUTPUT>!MESSAGE 2023-06-23 15:53:18,369 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:53:19.324
+OUTPUT>!MESSAGE Checking for update...
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:53:40.253
+OUTPUT>!MESSAGE Commandline is update to date.
+OUTPUT>Start to check local patches....
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:40.600
+OUTPUT>!MESSAGE 2023-06-23 15:53:40,600 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-23 15:53:40.653
+OUTPUT>!MESSAGE 2023-06-23 15:53:40,653 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-23 15:53:40.669
+OUTPUT>!MESSAGE 2023-06-23 15:53:40,653 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>COMPLETED at Fri Jun 23 15:53:41 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:53:41.302
+OUTPUT>!MESSAGE initLocal
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:53:41.317
+OUTPUT>!MESSAGE COMPLETED at Fri Jun 23 15:53:41 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:43.244
+OUTPUT>!MESSAGE 2023-06-23 15:53:43,244 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:43.259
+OUTPUT>!MESSAGE 2023-06-23 15:53:43,259 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:48.846
+OUTPUT>!MESSAGE 2023-06-23 15:53:48,846 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-docker, version=8.0.1.20230524_0138, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:48.861
+OUTPUT>!MESSAGE 2023-06-23 15:53:48,861 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-lite, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:48.893
+OUTPUT>!MESSAGE 2023-06-23 15:53:48,893 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tck, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:48.908
+OUTPUT>!MESSAGE 2023-06-23 15:53:48,908 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcksdk, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:48.924
+OUTPUT>!MESSAGE 2023-06-23 15:53:48,924 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcompv0, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:53:50.898
+OUTPUT>!MESSAGE 2023-06-23 15:53:50,882 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-23 15:53:54.020
+OUTPUT>!MESSAGE 2023-06-23 15:53:54,020 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+OUTPUT>
+OUTPUT>Component server not yet ready, will wait again
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:54:00.233
+OUTPUT>!MESSAGE 2023-06-23 15:54:00,233 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:55750/api/v1/environment]
+OUTPUT>
+ERROR>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+ERROR>SLF4J: Defaulting to no-operation (NOP) logger implementation
+ERROR>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:54:48.187
+OUTPUT>!MESSAGE 2023-06-23 15:54:48,187 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_ROUTINES/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:54:48.341
+OUTPUT>!MESSAGE 2023-06-23 15:54:48,341 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /TESTPROJECT_ROUTINES/src/main/java overlaps with sources folder /TESTPROJECT_ROUTINES/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:54:48.441
+OUTPUT>!MESSAGE 2023-06-23 15:54:48,441 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_ROUTINES/src/test/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:54:48.487
+OUTPUT>!MESSAGE 2023-06-23 15:54:48,487 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TESTPROJECT_ROUTINES/src/test/resources
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:55:05.054
+OUTPUT>!MESSAGE 2023-06-23 15:55:05,054 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TESTPROJECT_ROUTINES: org.example.testproject.code:routines:8.0.1 with classifier  to /TESTPROJECT_ROUTINES/target/classes
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:55:05.668
+OUTPUT>!MESSAGE 2023-06-23 15:55:05,668 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_BEANS/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:55:05.668
+OUTPUT>!MESSAGE 2023-06-23 15:55:05,668 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /TESTPROJECT_BEANS/src/main/java overlaps with sources folder /TESTPROJECT_BEANS/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:55:05.725
+OUTPUT>!MESSAGE 2023-06-23 15:55:05,724 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_BEANS/src/test/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:55:05.744
+OUTPUT>!MESSAGE 2023-06-23 15:55:05,744 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TESTPROJECT_BEANS/src/test/resources
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:55:05.852
+OUTPUT>!MESSAGE 2023-06-23 15:55:05,852 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TESTPROJECT_ROUTINES: org.example.testproject.code:routines:8.0.1 with classifier  to /TESTPROJECT_ROUTINES/target/classes
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:55:11.188
+OUTPUT>!MESSAGE 2023-06-23 15:55:11,188 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TESTPROJECT_ROUTINES: org.example.testproject.code:routines:8.0.1 with classifier  to /TESTPROJECT_ROUTINES/target/classes
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:55:12.069
+OUTPUT>!MESSAGE 2023-06-23 15:55:12,069 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - jobbuilder@talend.com logged on TestProject
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:55:18.070
+OUTPUT>!MESSAGE 2023-06-23 15:55:18,070 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 749, total: 749
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-23 15:55:32.358
+OUTPUT>!MESSAGE 2023-06-23 15:55:32,358 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 899 components loaded in 15861 ms
+OUTPUT>
+OUTPUT>COMPLETED at Fri Jun 23 15:56:57 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:56:57.261
+OUTPUT>!MESSAGE logonProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:56:57.315
+OUTPUT>!MESSAGE COMPLETED at Fri Jun 23 15:56:57 IST 2023
+OUTPUT>
+OUTPUT>COMPLETED at Fri Jun 23 15:56:58 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:56:58.160
+OUTPUT>!MESSAGE logoffProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:56:58.162
+OUTPUT>!MESSAGE COMPLETED at Fri Jun 23 15:56:58 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 15:56:58.518
+OUTPUT>!MESSAGE Shutting down Command Line Application
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 4 0 2023-06-23 15:57:01.521
+OUTPUT>!MESSAGE 2023-06-23 15:57:01,521 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+OUTPUT>
+OUTPUT>!STACK 0
+OUTPUT>java.lang.NullPointerException
+OUTPUT>	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:434)
+OUTPUT>	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:425)
+OUTPUT>	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+OUTPUT>	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 4 0 2023-06-23 15:57:01.537
+OUTPUT>!MESSAGE 2023-06-23 15:57:01,537 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+OUTPUT>
+OUTPUT>!STACK 0
+OUTPUT>java.lang.NullPointerException
+OUTPUT>	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:434)
+OUTPUT>	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:425)
+OUTPUT>	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+OUTPUT>	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
