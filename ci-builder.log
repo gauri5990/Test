@@ -7901,3 +7901,1350 @@ OUTPUT>
 OUTPUT>
 OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-23 16:56:54.079
 OUTPUT>!MESSAGE Shutting down Command Line Application
+ERROR>Picked up _JAVA_OPTIONS: -Xmx512M
+OUTPUT>!SESSION 2023-06-26 12:20:47.164 -----------------------------------------------
+OUTPUT>eclipse.buildId=unknown
+OUTPUT>java.version=11.0.18
+OUTPUT>java.vendor=Oracle Corporation
+OUTPUT>BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+OUTPUT>Framework arguments:  -application org.talend.studiolite.p2.featmanage.UpgradeCommandlineApplication
+OUTPUT>Command-line arguments:  -application org.talend.studiolite.p2.featmanage.UpgradeCommandlineApplication -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-26 12:21:03.221
+OUTPUT>!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-26 12:21:03.231
+OUTPUT>!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:21:08.033
+OUTPUT>!MESSAGE 2023-06-26 12:21:08,027 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio base p2 url is overwrited by: -Dtalend.studio.p2.base=https://update.talend.com/Studio/8/base
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:21:08.040
+OUTPUT>!MESSAGE 2023-06-26 12:21:08,038 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio update p2 url is overwriten by parameter -Dtalend.studio.p2.update=https://update.talend.com/Studio/8/updates/R2023-06
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:21:16.285
+OUTPUT>!MESSAGE 2023-06-26 12:21:16,285 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:21:39.154
+OUTPUT>!MESSAGE 2023-06-26 12:21:39,146 INFO  org.talend.studiolite.p2.featmanage.app.UpgradeCommandlineApplication  - Installing commandline features: org.talend.studio.tcpdm.feature.feature.group
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:33:15.734
+OUTPUT>!MESSAGE 2023-06-26 12:33:15,733 INFO  org.talend.studiolite.p2.featmanage.app.UpgradeCommandlineApplication  - Installation succeed!
+OUTPUT>
+ERROR>Picked up _JAVA_OPTIONS: -Xmx512M
+OUTPUT>!SESSION 2023-06-26 12:33:22.725 -----------------------------------------------
+OUTPUT>eclipse.buildId=unknown
+OUTPUT>java.version=11.0.18
+OUTPUT>java.vendor=Oracle Corporation
+OUTPUT>BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+OUTPUT>Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_18285715452080554397.txt
+OUTPUT>Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574 scriptFile script_command_18285715452080554397.txt
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-26 12:34:27.094
+OUTPUT>!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-26 12:34:27.098
+OUTPUT>!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:34:41.036
+OUTPUT>!MESSAGE 2023-06-26 12:34:41,036 INFO  org.talend.commandline.CommandLineApplication  - 
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!                                    TALEND                                    !!
+OUTPUT>!!   Starting Talend's platform log system.VERSION= 8.0.1.20230612_1054-patch   !!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:34:41.074
+OUTPUT>!MESSAGE Starting up Command Line Application
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:34:41.074
+OUTPUT>!MESSAGE 2023-06-26 12:34:41,074 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\configuration\studio.keys
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:34:41.791
+OUTPUT>!MESSAGE 2023-06-26 12:34:41,791 INFO  org.talend.utils.security.StudioEncryption  - updateConfig, studio environment, key file setup completed
+OUTPUT>
+ERROR>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+ERROR>SLF4J: Defaulting to no-operation (NOP) logger implementation
+ERROR>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:34:52.961
+OUTPUT>!MESSAGE 2023-06-26 12:34:52,945 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio base p2 url is overwrited by: -Dtalend.studio.p2.base=https://update.talend.com/Studio/8/base
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:34:52.961
+OUTPUT>!MESSAGE 2023-06-26 12:34:52,961 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio update p2 url is overwriten by parameter -Dtalend.studio.p2.update=https://update.talend.com/Studio/8/updates/R2023-06
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:34:53.346
+OUTPUT>!MESSAGE 2023-06-26 12:34:53,346 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:34:55.333
+OUTPUT>!MESSAGE Checking for update...
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:35:28.995
+OUTPUT>!MESSAGE Commandline is update to date.
+OUTPUT>Start to check local patches....
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:35:30.852
+OUTPUT>!MESSAGE 2023-06-26 12:35:30,852 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-26 12:35:31.024
+OUTPUT>!MESSAGE 2023-06-26 12:35:31,022 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-26 12:35:31.052
+OUTPUT>!MESSAGE 2023-06-26 12:35:31,044 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>COMPLETED at Mon Jun 26 12:35:34 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:35:34.894
+OUTPUT>!MESSAGE initLocal
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:35:34.915
+OUTPUT>!MESSAGE COMPLETED at Mon Jun 26 12:35:34 IST 2023
+OUTPUT>
+OUTPUT>COMPLETED at Mon Jun 26 12:35:56 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:35:56.108
+OUTPUT>!MESSAGE createProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:35:56.124
+OUTPUT>!MESSAGE COMPLETED at Mon Jun 26 12:35:56 IST 2023
+OUTPUT>
+OUTPUT>COMPLETED at Mon Jun 26 12:36:02 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:36:02.769
+OUTPUT>!MESSAGE logoffProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:36:02.779
+OUTPUT>!MESSAGE COMPLETED at Mon Jun 26 12:36:02 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:36:03.096
+OUTPUT>!MESSAGE Shutting down Command Line Application
+ERROR>Picked up _JAVA_OPTIONS: -Xmx512M
+OUTPUT>!SESSION 2023-06-26 12:36:08.029 -----------------------------------------------
+OUTPUT>eclipse.buildId=unknown
+OUTPUT>java.version=11.0.18
+OUTPUT>java.vendor=Oracle Corporation
+OUTPUT>BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+OUTPUT>Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_15361540814361628842.txt
+OUTPUT>Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574 scriptFile script_command_15361540814361628842.txt
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-26 12:36:17.104
+OUTPUT>!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-26 12:36:17.151
+OUTPUT>!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:36:23.214
+OUTPUT>!MESSAGE 2023-06-26 12:36:23,198 INFO  org.talend.commandline.CommandLineApplication  - 
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!                                    TALEND                                    !!
+OUTPUT>!!   Starting Talend's platform log system.VERSION= 8.0.1.20230612_1054-patch   !!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:36:23.245
+OUTPUT>!MESSAGE Starting up Command Line Application
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:36:23.261
+OUTPUT>!MESSAGE 2023-06-26 12:36:23,261 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\configuration\studio.keys
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:36:30.672
+OUTPUT>!MESSAGE 2023-06-26 12:36:30,670 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio base p2 url is overwrited by: -Dtalend.studio.p2.base=https://update.talend.com/Studio/8/base
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:36:30.703
+OUTPUT>!MESSAGE 2023-06-26 12:36:30,693 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio update p2 url is overwriten by parameter -Dtalend.studio.p2.update=https://update.talend.com/Studio/8/updates/R2023-06
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:36:31.064
+OUTPUT>!MESSAGE 2023-06-26 12:36:31,054 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:36:35.204
+OUTPUT>!MESSAGE Checking for update...
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:37:10.410
+OUTPUT>!MESSAGE Commandline is update to date.
+OUTPUT>Start to check local patches....
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:37:11.224
+OUTPUT>!MESSAGE 2023-06-26 12:37:11,216 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-26 12:37:11.319
+OUTPUT>!MESSAGE 2023-06-26 12:37:11,319 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-26 12:37:11.339
+OUTPUT>!MESSAGE 2023-06-26 12:37:11,337 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>COMPLETED at Mon Jun 26 12:37:12 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:37:12.777
+OUTPUT>!MESSAGE initLocal
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:37:12.793
+OUTPUT>!MESSAGE COMPLETED at Mon Jun 26 12:37:12 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:37:16.165
+OUTPUT>!MESSAGE 2023-06-26 12:37:16,165 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:37:16.180
+OUTPUT>!MESSAGE 2023-06-26 12:37:16,165 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:37:21.252
+OUTPUT>!MESSAGE 2023-06-26 12:37:21,237 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-docker, version=8.0.1.20230524_0138, classifier=null, type=pom, componentType=0] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:37:40.533
+OUTPUT>!MESSAGE 2023-06-26 12:37:40,533 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.designer.maven.repo.docker_8.0.1.20230524_0138\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:37:40.919
+OUTPUT>!MESSAGE 2023-06-26 12:37:40,919 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-docker, version=8.0.1.20230524_0138, classifier=null, type=pom, componentType=0] was installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:37:40.950
+OUTPUT>!MESSAGE 2023-06-26 12:37:40,950 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-lite, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:29.959
+OUTPUT>!MESSAGE 2023-06-26 12:38:29,959 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.designer.maven.repo.lite_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:29.990
+OUTPUT>!MESSAGE 2023-06-26 12:38:29,990 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-lite, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:30.006
+OUTPUT>!MESSAGE 2023-06-26 12:38:30,006 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tck, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:30.091
+OUTPUT>!MESSAGE 2023-06-26 12:38:30,091 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.designer.maven.repo.tck_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:30.150
+OUTPUT>!MESSAGE 2023-06-26 12:38:30,150 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tck, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:30.181
+OUTPUT>!MESSAGE 2023-06-26 12:38:30,166 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcksdk, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:35.794
+OUTPUT>!MESSAGE 2023-06-26 12:38:35,794 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.designer.maven.repo.tcksdk_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:35.841
+OUTPUT>!MESSAGE 2023-06-26 12:38:35,841 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcksdk, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:35.847
+OUTPUT>!MESSAGE 2023-06-26 12:38:35,847 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcompv0, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:36.681
+OUTPUT>!MESSAGE 2023-06-26 12:38:36,681 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.designer.maven.repo.tcompv0_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:36.728
+OUTPUT>!MESSAGE 2023-06-26 12:38:36,728 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcompv0, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:36.767
+OUTPUT>!MESSAGE 2023-06-26 12:38:36,767 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=cosmosDB, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:36.767
+OUTPUT>!MESSAGE 2023-06-26 12:38:36,767 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=cosmosDB, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:36.767
+OUTPUT>!MESSAGE 2023-06-26 12:38:36,767 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=cosmosDB, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:36.782
+OUTPUT>!MESSAGE 2023-06-26 12:38:36,782 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=cosmosDB, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:36.782
+OUTPUT>!MESSAGE 2023-06-26 12:38:36,782 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.bd.cosmosdb_8.0.1.20230612_1054\car\cosmosDB-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:36.798
+OUTPUT>!MESSAGE 2023-06-26 12:38:36,798 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.bd.cosmosdb_8.0.1.20230612_1054\car\cosmosDB-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:38.536
+OUTPUT>!MESSAGE 2023-06-26 12:38:38,536 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.bd.cosmosdb_8.0.1.20230612_1054\car\cosmosDB-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:38.558
+OUTPUT>!MESSAGE 2023-06-26 12:38:38,558 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.bd.cosmosdb_8.0.1.20230612_1054\car\cosmosDB-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:38.574
+OUTPUT>!MESSAGE 2023-06-26 12:38:38,574 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=couchbase, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:38.589
+OUTPUT>!MESSAGE 2023-06-26 12:38:38,589 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=couchbase, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:38.605
+OUTPUT>!MESSAGE 2023-06-26 12:38:38,589 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=couchbase, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:38.605
+OUTPUT>!MESSAGE 2023-06-26 12:38:38,605 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=couchbase, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:38.621
+OUTPUT>!MESSAGE 2023-06-26 12:38:38,621 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.bd.couchbase_8.0.1.20230612_1054\car\couchbase-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:38.636
+OUTPUT>!MESSAGE 2023-06-26 12:38:38,636 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.bd.couchbase_8.0.1.20230612_1054\car\couchbase-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:40.811
+OUTPUT>!MESSAGE 2023-06-26 12:38:40,811 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.bd.couchbase_8.0.1.20230612_1054\car\couchbase-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:40.811
+OUTPUT>!MESSAGE 2023-06-26 12:38:40,811 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.bd.couchbase_8.0.1.20230612_1054\car\couchbase-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:40.826
+OUTPUT>!MESSAGE 2023-06-26 12:38:40,826 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=azure-dls-gen2, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:40.826
+OUTPUT>!MESSAGE 2023-06-26 12:38:40,826 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=azure-dls-gen2, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:40.842
+OUTPUT>!MESSAGE 2023-06-26 12:38:40,826 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=azure-dls-gen2, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:40.842
+OUTPUT>!MESSAGE 2023-06-26 12:38:40,842 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=azure-dls-gen2, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:40.842
+OUTPUT>!MESSAGE 2023-06-26 12:38:40,842 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.azuredlsgen2_8.0.1.20230612_1054\car\azure-dls-gen2-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:40.864
+OUTPUT>!MESSAGE 2023-06-26 12:38:40,857 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.azuredlsgen2_8.0.1.20230612_1054\car\azure-dls-gen2-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:50.388
+OUTPUT>!MESSAGE 2023-06-26 12:38:50,388 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.azuredlsgen2_8.0.1.20230612_1054\car\azure-dls-gen2-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:50.388
+OUTPUT>!MESSAGE 2023-06-26 12:38:50,388 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.azuredlsgen2_8.0.1.20230612_1054\car\azure-dls-gen2-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:50.403
+OUTPUT>!MESSAGE 2023-06-26 12:38:50,403 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=cyberark, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:50.410
+OUTPUT>!MESSAGE 2023-06-26 12:38:50,410 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=cyberark, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:50.410
+OUTPUT>!MESSAGE 2023-06-26 12:38:50,410 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=cyberark, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:50.425
+OUTPUT>!MESSAGE 2023-06-26 12:38:50,425 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=cyberark, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:50.425
+OUTPUT>!MESSAGE 2023-06-26 12:38:50,425 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.cyberark_8.0.1.20230612_1054\car\cyberark-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:50.441
+OUTPUT>!MESSAGE 2023-06-26 12:38:50,441 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.cyberark_8.0.1.20230612_1054\car\cyberark-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:51.461
+OUTPUT>!MESSAGE 2023-06-26 12:38:51,461 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.cyberark_8.0.1.20230612_1054\car\cyberark-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:51.476
+OUTPUT>!MESSAGE 2023-06-26 12:38:51,476 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.cyberark_8.0.1.20230612_1054\car\cyberark-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:51.507
+OUTPUT>!MESSAGE 2023-06-26 12:38:51,507 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=neo4j, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:51.515
+OUTPUT>!MESSAGE 2023-06-26 12:38:51,515 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=neo4j, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:51.530
+OUTPUT>!MESSAGE 2023-06-26 12:38:51,528 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=neo4j, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:51.541
+OUTPUT>!MESSAGE 2023-06-26 12:38:51,540 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=neo4j, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:51.551
+OUTPUT>!MESSAGE 2023-06-26 12:38:51,550 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.neo4j_8.0.1.20230612_1054\car\neo4j-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:51.553
+OUTPUT>!MESSAGE 2023-06-26 12:38:51,553 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.neo4j_8.0.1.20230612_1054\car\neo4j-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:52.493
+OUTPUT>!MESSAGE 2023-06-26 12:38:52,493 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.neo4j_8.0.1.20230612_1054\car\neo4j-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:52.493
+OUTPUT>!MESSAGE 2023-06-26 12:38:52,493 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.neo4j_8.0.1.20230612_1054\car\neo4j-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:52.515
+OUTPUT>!MESSAGE 2023-06-26 12:38:52,508 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=neo4jImport, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:52.531
+OUTPUT>!MESSAGE 2023-06-26 12:38:52,531 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=neo4jImport, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:52.546
+OUTPUT>!MESSAGE 2023-06-26 12:38:52,531 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=neo4jImport, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:52.559
+OUTPUT>!MESSAGE 2023-06-26 12:38:52,558 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=neo4jImport, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:52.568
+OUTPUT>!MESSAGE 2023-06-26 12:38:52,567 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.neo4jv4importtool_8.0.1.20230612_1054\car\neo4jImport-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:52.568
+OUTPUT>!MESSAGE 2023-06-26 12:38:52,568 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.neo4jv4importtool_8.0.1.20230612_1054\car\neo4jImport-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:56.659
+OUTPUT>!MESSAGE 2023-06-26 12:38:56,659 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.neo4jv4importtool_8.0.1.20230612_1054\car\neo4jImport-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:56.674
+OUTPUT>!MESSAGE 2023-06-26 12:38:56,674 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.neo4jv4importtool_8.0.1.20230612_1054\car\neo4jImport-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:56.689
+OUTPUT>!MESSAGE 2023-06-26 12:38:56,689 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=netsuite, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:56.705
+OUTPUT>!MESSAGE 2023-06-26 12:38:56,705 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=netsuite, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:56.727
+OUTPUT>!MESSAGE 2023-06-26 12:38:56,721 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=netsuite, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:56.727
+OUTPUT>!MESSAGE 2023-06-26 12:38:56,727 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=netsuite, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:56.759
+OUTPUT>!MESSAGE 2023-06-26 12:38:56,759 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.netsuite_8.0.1.20230612_1054\car\netsuite-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:56.774
+OUTPUT>!MESSAGE 2023-06-26 12:38:56,774 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.netsuite_8.0.1.20230612_1054\car\netsuite-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.117
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,117 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.netsuite_8.0.1.20230612_1054\car\netsuite-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.117
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,117 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.netsuite_8.0.1.20230612_1054\car\netsuite-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.133
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,132 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=rabbitmq, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.133
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,133 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=rabbitmq, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.133
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,133 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=rabbitmq, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.149
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,149 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=rabbitmq, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.149
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,149 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.rabbitmq_8.0.1.20230612_1054\car\rabbitmq-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.164
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,164 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.rabbitmq_8.0.1.20230612_1054\car\rabbitmq-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.679
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,678 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.rabbitmq_8.0.1.20230612_1054\car\rabbitmq-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.679
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,679 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.rabbitmq_8.0.1.20230612_1054\car\rabbitmq-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.694
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,694 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=workday, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.694
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,694 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=workday, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.713
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,710 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=workday, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.716
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,716 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=workday, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.716
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,716 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.workday_8.0.1.20230612_1054\car\workday-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:38:59.734
+OUTPUT>!MESSAGE 2023-06-26 12:38:59,734 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.workday_8.0.1.20230612_1054\car\workday-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:00.283
+OUTPUT>!MESSAGE 2023-06-26 12:39:00,283 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.workday_8.0.1.20230612_1054\car\workday-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:00.298
+OUTPUT>!MESSAGE 2023-06-26 12:39:00,298 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.di.workday_8.0.1.20230612_1054\car\workday-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:00.367
+OUTPUT>!MESSAGE 2023-06-26 12:39:00,352 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=google-analytics, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:00.452
+OUTPUT>!MESSAGE 2023-06-26 12:39:00,452 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=google-analytics, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:00.452
+OUTPUT>!MESSAGE 2023-06-26 12:39:00,452 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=google-analytics, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:00.468
+OUTPUT>!MESSAGE 2023-06-26 12:39:00,468 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=google-analytics, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:00.468
+OUTPUT>!MESSAGE 2023-06-26 12:39:00,468 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.google.analytics_8.0.1.20230612_1054\car\google-analytics-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:00.483
+OUTPUT>!MESSAGE 2023-06-26 12:39:00,483 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.google.analytics_8.0.1.20230612_1054\car\google-analytics-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:02.537
+OUTPUT>!MESSAGE 2023-06-26 12:39:02,537 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.google.analytics_8.0.1.20230612_1054\car\google-analytics-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:02.543
+OUTPUT>!MESSAGE 2023-06-26 12:39:02,543 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.google.analytics_8.0.1.20230612_1054\car\google-analytics-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:02.574
+OUTPUT>!MESSAGE 2023-06-26 12:39:02,558 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=apache-kudu-connector, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:02.590
+OUTPUT>!MESSAGE 2023-06-26 12:39:02,574 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=apache-kudu-connector, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:02.590
+OUTPUT>!MESSAGE 2023-06-26 12:39:02,590 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=apache-kudu-connector, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:02.605
+OUTPUT>!MESSAGE 2023-06-26 12:39:02,605 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=apache-kudu-connector, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:02.605
+OUTPUT>!MESSAGE 2023-06-26 12:39:02,605 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.kudu_8.0.1.20230612_1054\car\apache-kudu-connector-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:02.621
+OUTPUT>!MESSAGE 2023-06-26 12:39:02,621 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.kudu_8.0.1.20230612_1054\car\apache-kudu-connector-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:04.026
+OUTPUT>!MESSAGE 2023-06-26 12:39:04,026 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.kudu_8.0.1.20230612_1054\car\apache-kudu-connector-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:04.026
+OUTPUT>!MESSAGE 2023-06-26 12:39:04,026 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.kudu_8.0.1.20230612_1054\car\apache-kudu-connector-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:04.041
+OUTPUT>!MESSAGE 2023-06-26 12:39:04,041 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=samba, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:04.047
+OUTPUT>!MESSAGE 2023-06-26 12:39:04,047 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=samba, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:04.047
+OUTPUT>!MESSAGE 2023-06-26 12:39:04,047 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=samba, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:04.063
+OUTPUT>!MESSAGE 2023-06-26 12:39:04,047 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=samba, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:04.063
+OUTPUT>!MESSAGE 2023-06-26 12:39:04,063 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.samba_8.0.1.20230612_1054\car\samba-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:04.063
+OUTPUT>!MESSAGE 2023-06-26 12:39:04,063 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.samba_8.0.1.20230612_1054\car\samba-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:05.582
+OUTPUT>!MESSAGE 2023-06-26 12:39:05,582 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.samba_8.0.1.20230612_1054\car\samba-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:05.597
+OUTPUT>!MESSAGE 2023-06-26 12:39:05,597 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.samba_8.0.1.20230612_1054\car\samba-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:05.612
+OUTPUT>!MESSAGE 2023-06-26 12:39:05,612 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=tableau-hyper-connector, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:05.612
+OUTPUT>!MESSAGE 2023-06-26 12:39:05,612 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=tableau-hyper-connector, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:05.628
+OUTPUT>!MESSAGE 2023-06-26 12:39:05,628 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=tableau-hyper-connector, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:05.628
+OUTPUT>!MESSAGE 2023-06-26 12:39:05,628 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=tableau-hyper-connector, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:05.650
+OUTPUT>!MESSAGE 2023-06-26 12:39:05,650 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.tableau_8.0.1.20230612_1054\car\tableau-hyper-connector-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:05.650
+OUTPUT>!MESSAGE 2023-06-26 12:39:05,650 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.tableau_8.0.1.20230612_1054\car\tableau-hyper-connector-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:24.635
+OUTPUT>!MESSAGE 2023-06-26 12:39:24,635 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.tableau_8.0.1.20230612_1054\car\tableau-hyper-connector-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:24.635
+OUTPUT>!MESSAGE 2023-06-26 12:39:24,635 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.tableau_8.0.1.20230612_1054\car\tableau-hyper-connector-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:24.650
+OUTPUT>!MESSAGE 2023-06-26 12:39:24,635 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=zendesk, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:24.650
+OUTPUT>!MESSAGE 2023-06-26 12:39:24,650 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=zendesk, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:24.650
+OUTPUT>!MESSAGE 2023-06-26 12:39:24,650 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=zendesk, version=1.46.0, classifier=, type=, componentType=2] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:24.666
+OUTPUT>!MESSAGE 2023-06-26 12:39:24,666 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=zendesk, version=1.46.0, classifier=, type=, componentType=2]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:24.666
+OUTPUT>!MESSAGE 2023-06-26 12:39:24,666 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Files found: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.zendesk_8.0.1.20230612_1054\car\zendesk-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:24.682
+OUTPUT>!MESSAGE 2023-06-26 12:39:24,682 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - Car file: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.zendesk_8.0.1.20230612_1054\car\zendesk-1.46.0.car] was added
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:25.401
+OUTPUT>!MESSAGE 2023-06-26 12:39:25,401 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.zendesk_8.0.1.20230612_1054\car\zendesk-1.46.0.car
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:25.401
+OUTPUT>!MESSAGE 2023-06-26 12:39:25,401 INFO  org.talend.sdk.component.studio.util.TCKComponentInstallerTask  - TCK Component installed: [C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tck.zendesk_8.0.1.20230612_1054\car\zendesk-1.46.0.car]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:25.416
+OUTPUT>!MESSAGE 2023-06-26 12:39:25,416 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-azurestorage, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:25.423
+OUTPUT>!MESSAGE 2023-06-26 12:39:25,423 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-azurestorage, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:29.399
+OUTPUT>!MESSAGE 2023-06-26 12:39:29,384 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.azurestorage_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:29.399
+OUTPUT>!MESSAGE 2023-06-26 12:39:29,399 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-couchbase, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:29.415
+OUTPUT>!MESSAGE 2023-06-26 12:39:29,399 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-couchbase, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:37.321
+OUTPUT>!MESSAGE 2023-06-26 12:39:37,321 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.couchbase_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:37.337
+OUTPUT>!MESSAGE 2023-06-26 12:39:37,337 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-dataprep, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:37.352
+OUTPUT>!MESSAGE 2023-06-26 12:39:37,352 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-dataprep, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:42.864
+OUTPUT>!MESSAGE 2023-06-26 12:39:42,864 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.dataprep_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:42.880
+OUTPUT>!MESSAGE 2023-06-26 12:39:42,880 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-datastewardship, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:42.880
+OUTPUT>!MESSAGE 2023-06-26 12:39:42,880 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-datastewardship, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:48.320
+OUTPUT>!MESSAGE 2023-06-26 12:39:48,320 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.datastewardship_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:48.336
+OUTPUT>!MESSAGE 2023-06-26 12:39:48,336 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-googledrive-runtime, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:48.336
+OUTPUT>!MESSAGE 2023-06-26 12:39:48,336 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-googledrive-runtime, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:52.494
+OUTPUT>!MESSAGE 2023-06-26 12:39:52,494 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.googledrive_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:52.511
+OUTPUT>!MESSAGE 2023-06-26 12:39:52,509 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-jdbc-runtime, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:39:52.516
+OUTPUT>!MESSAGE 2023-06-26 12:39:52,516 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-jdbc-runtime, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:01.149
+OUTPUT>!MESSAGE 2023-06-26 12:40:01,149 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.jdbc_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:01.149
+OUTPUT>!MESSAGE 2023-06-26 12:40:01,149 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-jira, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:01.165
+OUTPUT>!MESSAGE 2023-06-26 12:40:01,165 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-jira, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:04.192
+OUTPUT>!MESSAGE 2023-06-26 12:40:04,192 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.jira_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:04.208
+OUTPUT>!MESSAGE 2023-06-26 12:40:04,208 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-marketo-runtime, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:04.208
+OUTPUT>!MESSAGE 2023-06-26 12:40:04,208 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-marketo-runtime, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:08.203
+OUTPUT>!MESSAGE 2023-06-26 12:40:08,203 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.marketo_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:08.203
+OUTPUT>!MESSAGE 2023-06-26 12:40:08,203 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-netsuite-runtime_2019_2, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:08.219
+OUTPUT>!MESSAGE 2023-06-26 12:40:08,219 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-netsuite-runtime_2019_2, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:12.180
+OUTPUT>!MESSAGE 2023-06-26 12:40:12,180 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.netsuite_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:12.196
+OUTPUT>!MESSAGE 2023-06-26 12:40:12,180 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-salesforce-runtime, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:12.196
+OUTPUT>!MESSAGE 2023-06-26 12:40:12,196 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-salesforce-runtime, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:16.062
+OUTPUT>!MESSAGE 2023-06-26 12:40:16,062 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.salesforce_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:16.078
+OUTPUT>!MESSAGE 2023-06-26 12:40:16,078 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-snowflake-runtime, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:16.078
+OUTPUT>!MESSAGE 2023-06-26 12:40:16,078 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-snowflake-runtime, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:19.760
+OUTPUT>!MESSAGE 2023-06-26 12:40:19,760 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.snowflake_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:19.791
+OUTPUT>!MESSAGE 2023-06-26 12:40:19,791 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-snowflake-ee-runtime, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:19.806
+OUTPUT>!MESSAGE 2023-06-26 12:40:19,806 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-snowflake-ee-runtime, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:26.080
+OUTPUT>!MESSAGE 2023-06-26 12:40:26,080 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.snowflakeee_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:26.096
+OUTPUT>!MESSAGE 2023-06-26 12:40:26,096 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: GAV [groupId=org.talend.components, artifactId=components-splunk, version=0.37.22, classifier=, type=, componentType=1] was not installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:26.096
+OUTPUT>!MESSAGE 2023-06-26 12:40:26,096 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Component: [GAV [groupId=org.talend.components, artifactId=components-splunk, version=0.37.22, classifier=, type=, componentType=1]] is going to be installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:30.785
+OUTPUT>!MESSAGE 2023-06-26 12:40:30,785 INFO  org.talend.core.model.utils.BaseComponentInstallerTask  - Jar zip: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\plugins\org.talend.studio.components.tcompv0.splunk_8.0.1.20230612_1054\repository\maven_repository.zip were unzipped to C:\Program Files (x86)\Talend-Studio\studio\configuration\.m2\repository
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:32.945
+OUTPUT>!MESSAGE 2023-06-26 12:40:32,907 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-26 12:40:39.926
+OUTPUT>!MESSAGE 2023-06-26 12:40:39,926 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+OUTPUT>
+OUTPUT>Component server not yet ready, will wait again
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:40:47.945
+OUTPUT>!MESSAGE 2023-06-26 12:40:47,945 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:50758/api/v1/environment]
+OUTPUT>
+ERROR>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+ERROR>SLF4J: Defaulting to no-operation (NOP) logger implementation
+ERROR>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:42:44.203
+OUTPUT>!MESSAGE 2023-06-26 12:42:44,197 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_ROUTINES/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:42:44.203
+OUTPUT>!MESSAGE 2023-06-26 12:42:44,203 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /TESTPROJECT_ROUTINES/src/main/java overlaps with sources folder /TESTPROJECT_ROUTINES/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:42:44.250
+OUTPUT>!MESSAGE 2023-06-26 12:42:44,250 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_ROUTINES/src/test/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:42:44.250
+OUTPUT>!MESSAGE 2023-06-26 12:42:44,250 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TESTPROJECT_ROUTINES/src/test/resources
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:43:15.539
+OUTPUT>!MESSAGE 2023-06-26 12:43:15,523 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TESTPROJECT_ROUTINES: org.example.testproject.code:routines:8.0.1 with classifier  to /TESTPROJECT_ROUTINES/target/classes
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:43:16.323
+OUTPUT>!MESSAGE 2023-06-26 12:43:16,315 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_BEANS/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:43:16.335
+OUTPUT>!MESSAGE 2023-06-26 12:43:16,333 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /TESTPROJECT_BEANS/src/main/java overlaps with sources folder /TESTPROJECT_BEANS/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:43:16.393
+OUTPUT>!MESSAGE 2023-06-26 12:43:16,385 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_BEANS/src/test/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:43:16.426
+OUTPUT>!MESSAGE 2023-06-26 12:43:16,424 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TESTPROJECT_BEANS/src/test/resources
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:43:16.845
+OUTPUT>!MESSAGE 2023-06-26 12:43:16,837 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TESTPROJECT_ROUTINES: org.example.testproject.code:routines:8.0.1 with classifier  to /TESTPROJECT_ROUTINES/target/classes
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:43:20.891
+OUTPUT>!MESSAGE 2023-06-26 12:43:20,890 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TESTPROJECT_ROUTINES: org.example.testproject.code:routines:8.0.1 with classifier  to /TESTPROJECT_ROUTINES/target/classes
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:43:21.665
+OUTPUT>!MESSAGE 2023-06-26 12:43:21,665 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - jobbuilder@talend.com logged on TestProject
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:43:28.087
+OUTPUT>!MESSAGE 2023-06-26 12:43:28,087 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 749, total: 749
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 12:43:44.054
+OUTPUT>!MESSAGE 2023-06-26 12:43:44,054 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 899 components loaded in 17735 ms
+OUTPUT>
+OUTPUT>COMPLETED at Mon Jun 26 12:44:26 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:44:26.934
+OUTPUT>!MESSAGE logonProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:44:26.934
+OUTPUT>!MESSAGE COMPLETED at Mon Jun 26 12:44:26 IST 2023
+OUTPUT>
+OUTPUT>COMPLETED at Mon Jun 26 12:44:27 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:44:27.320
+OUTPUT>!MESSAGE logoffProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:44:27.335
+OUTPUT>!MESSAGE COMPLETED at Mon Jun 26 12:44:27 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 12:44:27.504
+OUTPUT>!MESSAGE Shutting down Command Line Application
+ERROR>Picked up _JAVA_OPTIONS: -Xmx512M
+OUTPUT>!SESSION 2023-06-26 13:03:20.900 -----------------------------------------------
+OUTPUT>eclipse.buildId=unknown
+OUTPUT>java.version=11.0.18
+OUTPUT>java.vendor=Oracle Corporation
+OUTPUT>BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+OUTPUT>Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_5736042459553836904.txt
+OUTPUT>Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574 scriptFile script_command_5736042459553836904.txt
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-26 13:04:38.780
+OUTPUT>!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-26 13:04:38.795
+OUTPUT>!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:04:45.646
+OUTPUT>!MESSAGE 2023-06-26 13:04:45,646 INFO  org.talend.commandline.CommandLineApplication  - 
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!                                    TALEND                                    !!
+OUTPUT>!!   Starting Talend's platform log system.VERSION= 8.0.1.20230612_1054-patch   !!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:04:45.677
+OUTPUT>!MESSAGE Starting up Command Line Application
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:04:45.677
+OUTPUT>!MESSAGE 2023-06-26 13:04:45,677 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\configuration\studio.keys
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:04:53.359
+OUTPUT>!MESSAGE 2023-06-26 13:04:53,359 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio base p2 url is overwrited by: -Dtalend.studio.p2.base=https://update.talend.com/Studio/8/base
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:04:53.375
+OUTPUT>!MESSAGE 2023-06-26 13:04:53,359 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio update p2 url is overwriten by parameter -Dtalend.studio.p2.update=https://update.talend.com/Studio/8/updates/R2023-06
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:04:54.293
+OUTPUT>!MESSAGE 2023-06-26 13:04:54,278 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:04:56.310
+OUTPUT>!MESSAGE Checking for update...
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:05:15.952
+OUTPUT>!MESSAGE Commandline is update to date.
+OUTPUT>Start to check local patches....
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:05:18.630
+OUTPUT>!MESSAGE 2023-06-26 13:05:18,630 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-26 13:05:18.861
+OUTPUT>!MESSAGE 2023-06-26 13:05:18,861 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-26 13:05:18.861
+OUTPUT>!MESSAGE 2023-06-26 13:05:18,861 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>COMPLETED at Mon Jun 26 13:05:21 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:05:21.207
+OUTPUT>!MESSAGE initLocal
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:05:21.223
+OUTPUT>!MESSAGE COMPLETED at Mon Jun 26 13:05:21 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.egit.core 4 0 2023-06-26 13:05:21.424
+OUTPUT>!MESSAGE Git team provider configuration has gone missing.
+OUTPUT>!STACK 0
+OUTPUT>java.nio.file.NoSuchFileException: C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574\.metadata\.plugins\org.eclipse.core.resources\.projects\TESTPROJECT\org.eclipse.egit.core\GitProjectData.properties
+OUTPUT>	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+OUTPUT>	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+OUTPUT>	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+OUTPUT>	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+OUTPUT>	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+OUTPUT>	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+OUTPUT>	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+OUTPUT>	at java.base/java.nio.file.Files.newInputStream(Files.java:156)
+OUTPUT>	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+OUTPUT>	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+OUTPUT>	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+OUTPUT>	at org.eclipse.egit.core.GitProvider.getMoveDeleteHook(GitProvider.java:92)
+OUTPUT>	at org.eclipse.team.internal.core.MoveDeleteManager.getHookFor(MoveDeleteManager.java:37)
+OUTPUT>	at org.eclipse.team.internal.core.MoveDeleteManager.deleteProject(MoveDeleteManager.java:71)
+OUTPUT>	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1791)
+OUTPUT>	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+OUTPUT>	at org.eclipse.core.internal.resources.Project.delete(Project.java:320)
+OUTPUT>	at org.talend.repository.localprovider.model.LocalRepositoryFactory.createProject(LocalRepositoryFactory.java:810)
+OUTPUT>	at org.talend.core.repository.model.ProxyRepositoryFactory.createProject(ProxyRepositoryFactory.java:557)
+OUTPUT>	at org.talend.core.repository.model.ProxyRepositoryFactory.createProject(ProxyRepositoryFactory.java:551)
+OUTPUT>	at org.talend.commandline.util.RepositoryHandler.createProject(RepositoryHandler.java:294)
+OUTPUT>	at org.talend.commandline.command.execute.CreateProjectExecuteCommand.execute(CreateProjectExecuteCommand.java:93)
+OUTPUT>	at org.talend.commandline.command.ExtensionCommandSwitch.caseExtensionServerCommand(ExtensionCommandSwitch.java:189)
+OUTPUT>	at org.talend.commandline.client.command.extension.AbstractExtensionCommandSwitch.doSwitch(AbstractExtensionCommandSwitch.java:31)
+OUTPUT>	at org.talend.commandline.command.CommandProcessorSwitch.caseExtensionCommand(CommandProcessorSwitch.java:179)
+OUTPUT>	at org.talend.commandline.client.util.CommandAbstractSwitch.doSwitch(CommandAbstractSwitch.java:70)
+OUTPUT>	at org.talend.commandline.command.CommandConsumer.executeCommand(CommandConsumer.java:57)
+OUTPUT>	at org.talend.commandline.command.CommandConsumer.execute(CommandConsumer.java:35)
+OUTPUT>	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:289)
+OUTPUT>	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:219)
+OUTPUT>	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:206)
+OUTPUT>	at org.talend.commandline.command.CommandProcessor.processScriptFile(CommandProcessor.java:423)
+OUTPUT>	at org.talend.commandline.cli.CommandLineHandler.executeClientCommand(CommandLineHandler.java:735)
+OUTPUT>	at org.talend.commandline.cli.CommandLineHandler.process(CommandLineHandler.java:268)
+OUTPUT>	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:219)
+OUTPUT>	at org.talend.commandline.cli.CommandLineHandler.execute(CommandLineHandler.java:206)
+OUTPUT>	at org.talend.commandline.mode.NormalCommandLine.start(NormalCommandLine.java:32)
+OUTPUT>	at org.talend.commandline.CommandLineApplication.start(CommandLineApplication.java:407)
+OUTPUT>	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+OUTPUT>	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+OUTPUT>	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+OUTPUT>	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+OUTPUT>	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+OUTPUT>	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+OUTPUT>	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+OUTPUT>	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+OUTPUT>	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+OUTPUT>	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+OUTPUT>	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+OUTPUT>	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+OUTPUT>	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+OUTPUT>	at org.eclipse.core.launcher.Main.main(Main.java:44)
+OUTPUT>COMPLETED at Mon Jun 26 13:05:34 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:05:34.381
+OUTPUT>!MESSAGE createProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:05:34.381
+OUTPUT>!MESSAGE COMPLETED at Mon Jun 26 13:05:34 IST 2023
+OUTPUT>
+OUTPUT>COMPLETED at Mon Jun 26 13:05:37 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:05:37.205
+OUTPUT>!MESSAGE logoffProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:05:37.221
+OUTPUT>!MESSAGE COMPLETED at Mon Jun 26 13:05:37 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:05:37.643
+OUTPUT>!MESSAGE Shutting down Command Line Application
+ERROR>Picked up _JAVA_OPTIONS: -Xmx512M
+OUTPUT>!SESSION 2023-06-26 13:05:40.872 -----------------------------------------------
+OUTPUT>eclipse.buildId=unknown
+OUTPUT>java.version=11.0.18
+OUTPUT>java.vendor=Oracle Corporation
+OUTPUT>BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+OUTPUT>Framework arguments:  -application org.talend.commandline.CommandLine scriptFile script_command_3128100621815958657.txt
+OUTPUT>Command-line arguments:  -application org.talend.commandline.CommandLine -consolelog -data C:\Users\Gauri.Vaijapurkar\workspace_new\Test-122516574 scriptFile script_command_3128100621815958657.txt
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-26 13:05:43.508
+OUTPUT>!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+OUTPUT>
+OUTPUT>!ENTRY org.eclipse.emf.ecore 2 0 2023-06-26 13:05:43.530
+OUTPUT>!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:05:45.165
+OUTPUT>!MESSAGE 2023-06-26 13:05:45,149 INFO  org.talend.commandline.CommandLineApplication  - 
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!                                    TALEND                                    !!
+OUTPUT>!!   Starting Talend's platform log system.VERSION= 8.0.1.20230612_1054-patch   !!
+OUTPUT>!!                                                                              !!
+OUTPUT>!!------------------------------------------------------------------------------!!
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:05:45.180
+OUTPUT>!MESSAGE Starting up Command Line Application
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:05:45.180
+OUTPUT>!MESSAGE 2023-06-26 13:05:45,180 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Windows\System32\config\systemprofile\.installation\.commandline_8\configuration\studio.keys
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:05:47.128
+OUTPUT>!MESSAGE 2023-06-26 13:05:47,121 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio base p2 url is overwrited by: -Dtalend.studio.p2.base=https://update.talend.com/Studio/8/base
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:05:47.140
+OUTPUT>!MESSAGE 2023-06-26 13:05:47,138 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Studio update p2 url is overwriten by parameter -Dtalend.studio.p2.update=https://update.talend.com/Studio/8/updates/R2023-06
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:05:47.236
+OUTPUT>!MESSAGE 2023-06-26 13:05:47,236 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:05:48.529
+OUTPUT>!MESSAGE Checking for update...
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:06:06.706
+OUTPUT>!MESSAGE Commandline is update to date.
+OUTPUT>Start to check local patches....
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:06:07.117
+OUTPUT>!MESSAGE 2023-06-26 13:06:07,117 INFO  org.talend.datacleansing.core.CleansingActivator  - Starting Talend Data Profiler platform.
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-26 13:06:07.160
+OUTPUT>!MESSAGE 2023-06-26 13:06:07,160 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-26 13:06:07.176
+OUTPUT>!MESSAGE 2023-06-26 13:06:07,176 WARN  org.talend.resource.ResourceManager  - The project can not get it from Project manager so that use default one
+OUTPUT>
+OUTPUT>COMPLETED at Mon Jun 26 13:06:07 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:06:07.862
+OUTPUT>!MESSAGE initLocal
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:06:07.877
+OUTPUT>!MESSAGE COMPLETED at Mon Jun 26 13:06:07 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:06:09.654
+OUTPUT>!MESSAGE 2023-06-26 13:06:09,654 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:06:09.670
+OUTPUT>!MESSAGE 2023-06-26 13:06:09,654 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:06:13.198
+OUTPUT>!MESSAGE 2023-06-26 13:06:13,196 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-docker, version=8.0.1.20230524_0138, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:06:13.214
+OUTPUT>!MESSAGE 2023-06-26 13:06:13,212 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-lite, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:06:13.234
+OUTPUT>!MESSAGE 2023-06-26 13:06:13,230 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tck, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:06:13.238
+OUTPUT>!MESSAGE 2023-06-26 13:06:13,238 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcksdk, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:06:13.254
+OUTPUT>!MESSAGE 2023-06-26 13:06:13,254 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcompv0, version=8.0.1.20230612_1054, classifier=null, type=pom, componentType=0] was already installed
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:06:15.283
+OUTPUT>!MESSAGE 2023-06-26 13:06:15,267 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+OUTPUT>
+OUTPUT>Component server not yet ready, will wait again
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 2 0 2023-06-26 13:06:23.672
+OUTPUT>!MESSAGE 2023-06-26 13:06:23,670 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+OUTPUT>
+OUTPUT>Component server not yet ready, will wait again
+OUTPUT>Component server not yet ready, will wait again
+OUTPUT>Component server not yet ready, will wait again
+OUTPUT>Component server not yet ready, will wait again
+OUTPUT>Component server not yet ready, will wait again
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:06:57.414
+OUTPUT>!MESSAGE 2023-06-26 13:06:57,412 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:51056/api/v1/environment]
+OUTPUT>
+ERROR>SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+ERROR>SLF4J: Defaulting to no-operation (NOP) logger implementation
+ERROR>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:07:27.290
+OUTPUT>!MESSAGE 2023-06-26 13:07:27,290 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_ROUTINES/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:07:27.290
+OUTPUT>!MESSAGE 2023-06-26 13:07:27,290 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /TESTPROJECT_ROUTINES/src/main/java overlaps with sources folder /TESTPROJECT_ROUTINES/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:07:27.322
+OUTPUT>!MESSAGE 2023-06-26 13:07:27,322 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_ROUTINES/src/test/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:07:27.337
+OUTPUT>!MESSAGE 2023-06-26 13:07:27,337 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TESTPROJECT_ROUTINES/src/test/resources
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:07:48.470
+OUTPUT>!MESSAGE 2023-06-26 13:07:48,470 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TESTPROJECT_ROUTINES: org.example.testproject.code:routines:8.0.1 with classifier  to /TESTPROJECT_ROUTINES/target/classes
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:07:48.843
+OUTPUT>!MESSAGE 2023-06-26 13:07:48,835 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_BEANS/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:07:48.854
+OUTPUT>!MESSAGE 2023-06-26 13:07:48,854 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /TESTPROJECT_BEANS/src/main/java overlaps with sources folder /TESTPROJECT_BEANS/src/main/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:07:48.874
+OUTPUT>!MESSAGE 2023-06-26 13:07:48,874 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TESTPROJECT_BEANS/src/test/java
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:07:48.884
+OUTPUT>!MESSAGE 2023-06-26 13:07:48,884 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TESTPROJECT_BEANS/src/test/resources
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:07:54.840
+OUTPUT>!MESSAGE 2023-06-26 13:07:54,836 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TESTPROJECT_ROUTINES: org.example.testproject.code:routines:8.0.1 with classifier  to /TESTPROJECT_ROUTINES/target/classes
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:07:55.301
+OUTPUT>!MESSAGE 2023-06-26 13:07:55,298 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - jobbuilder@talend.com logged on TestProject
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:08:00.697
+OUTPUT>!MESSAGE 2023-06-26 13:08:00,637 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 749, total: 749
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 1 0 2023-06-26 13:08:46.833
+OUTPUT>!MESSAGE 2023-06-26 13:08:46,833 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 899 components loaded in 49542 ms
+OUTPUT>
+OUTPUT>COMPLETED at Mon Jun 26 13:09:44 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:09:44.809
+OUTPUT>!MESSAGE logonProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:09:44.809
+OUTPUT>!MESSAGE COMPLETED at Mon Jun 26 13:09:44 IST 2023
+OUTPUT>
+OUTPUT>COMPLETED at Mon Jun 26 13:09:45 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:09:45.238
+OUTPUT>!MESSAGE logoffProject
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:09:45.253
+OUTPUT>!MESSAGE COMPLETED at Mon Jun 26 13:09:45 IST 2023
+OUTPUT>
+OUTPUT>
+OUTPUT>!ENTRY org.talend.commandline 1 0 2023-06-26 13:09:45.571
+OUTPUT>!MESSAGE Shutting down Command Line Application
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 4 0 2023-06-26 13:09:47.013
+OUTPUT>!MESSAGE 2023-06-26 13:09:47,012 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+OUTPUT>
+OUTPUT>!STACK 0
+OUTPUT>java.lang.NullPointerException
+OUTPUT>	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:434)
+OUTPUT>	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:425)
+OUTPUT>	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+OUTPUT>	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+OUTPUT>
+OUTPUT>!ENTRY org.talend.platform.logging 4 0 2023-06-26 13:09:47.024
+OUTPUT>!MESSAGE 2023-06-26 13:09:47,022 ERROR org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener  - Could not update launch configuration
+OUTPUT>
+OUTPUT>!STACK 0
+OUTPUT>java.lang.NullPointerException
+OUTPUT>	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.getLaunchConfiguration(MavenRuntimeClasspathProvider.java:434)
+OUTPUT>	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:425)
+OUTPUT>	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:130)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+OUTPUT>	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+OUTPUT>	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+OUTPUT>	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
